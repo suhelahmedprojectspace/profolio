@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@400;500&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#"><i class="fas fa-user"></i>About</a>
+        <a href="#"><i class="fas fa-address-book"></i>Contact</a>
+        <a href="#"><i class="fas fa-suitcase"></i>Portfolio</a>
+        <a href="#"><i class="fas fa-book-open"></i>Skills</a>
+    </div>
+    <div id="main">
+        <div>
+            <button class="nav" onclick="openNav()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </button>
+        </div>
+        <div class="brand_logo">
+            <h1>Suhel</h1>
+        </div>
+
+    </div>
+    <section class="part1">
+
+        <div class="part1_left">
+            <div class="txt">
+                <h1>Hi , I'm Suhel <br>
+                    I am a webdeveloper.
+                </h1>
+            </div>
+            <div class="btton">
+                <button>Contact Me</button>
+            </div>
+
+        </div>
+        <div class="part1_icons">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-node-js"></i>
+            <i class="fab fa-react"></i>
+        </div>
+
+    </section>
+    <section class="about">
+        <h1>About me</h1>
+        <div class="about_part">
+
+            <div class="about_img">
+                <img src="perfil.png" alt="hero">
+            </div>
+            <div class="about_text">
+                <p>Web developr with extensive knowledege and years of experience
+                    ,working with web technologies and ux/ui design and delivering quality work
+
+                </p>
+                <div class="about_btn">
+                    <div class="btn_groups">
+                        <h3>8+</h3>
+                        <p class="p1">years of experience</p>
+                    </div>
+                    <div class="btn_groups">
+                        <h3>50+</h3>
+                        <p class="p1">project completed</p>
+                    </div>
+                    <div class="btn_groups">
+                        <h3>4+</h3>
+                        <p class="p1">companies workded</p>
+                    </div>
+
+                </div>
+                <div class="btns">download cv</div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="skill">
+        <h1>Skills</h1>
+        <div class="skills_container">
+            <div id="skill1_box">
+                <div class="skill_up">
+                    <i class="fas fa-code"></i>
+                    <h2>Frontend Developer</h2>
+                    <button onclick="openit()" id="close"><i class="fas fa-angle-down"></i></button>
+                </div>
+
+                <div id="skill1_down">
+                    <ul>
+                        <li>
+                            <div class="list_cont">
+                                <div class="list_up">
+                                    <h3>HTML</h3>
+                                </div>
+                                <div class="list_down">
+                                    <div class="skill_bar"></div>
+                                    <h4 class="skill_per">97%</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list_cont">
+                                <div class="list_up">
+                                    <h3>React</h3>
+                                </div>
+                                <div class="list_down">
+                                    <div class="skill_bar"></div>
+                                    <h4 class="skill_per">87%</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list_cont">
+                                <div class="list_up">
+                                    <h3>Css</h3>
+                                </div>
+                                <div class="list_down">
+                                    <div class="skill_bar"></div>
+                                    <h4 class="skill_per">97%</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list_cont">
+                                <div class="list_up">
+                                    <h3>Taiwlaind css</h3>
+                                </div>
+                                <div class="list_down">
+                                    <div class="skill_bar"></div>
+                                    <h4 class="skill_per">77%</h4>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- box2 -->
+            <div id="skill_box1">
+                <div class="skill_up1">
+                    <i class="fas fa-paint-brush"></i>
+                    <h2>Ux Designer</h2>
+                    <button onclick="openit1()" id="close1"><i class="fas fa-angle-down"></i></button>
+                </div>
+
+                <div id="skill_down1">
+                    <ul>
+                        <li>
+                            <div class="list_cont1">
+                                <div class="list_up1">
+                                    <h3>Figma</h3>
+                                </div>
+                                <div class="list_down1">
+                                    <div class="skill_bar1"></div>
+                                    <h4 class="skill_per1">97%</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list_cont1">
+                                <div class="list_up1">
+                                    <h3>Photoshop</h3>
+                                </div>
+                                <div class="list_down1">
+                                    <div class="skill_bar1"></div>
+                                    <h4 class="skill_per1">87%</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list_cont1">
+                                <div class="list_up1">
+                                    <h3>Illustration</h3>
+                                </div>
+                                <div class="list_down1">
+                                    <div class="skill_bar1"></div>
+                                    <h4 class="skill_per1">97%</h4>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- box3 -->
+
+            <div id="skill_box2">
+                <div class="skill_up2">
+                    <i class="fas fa-database"></i>
+                    <h2>Backend Developer</h2>
+                    <button onclick="openit2()" id="close2"><i class="fas fa-angle-down"></i></button>
+                </div>
+
+                <div id="skill_down2">
+                    <ul>
+                        <li>
+                            <div class="list_cont2">
+                                <div class="list_up2">
+                                    <h3>Monogodb</h3>
+                                </div>
+                                <div class="list_down2">
+                                    <div class="skill_bar2"></div>
+                                    <h4 class="skill_per2">97%</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list_cont2">
+                                <div class="list_up2">
+                                    <h3>Node js</h3>
+                                </div>
+                                <div class="list_down2">
+                                    <div class="skill_bar2"></div>
+                                    <h4 class="skill_per2">87%</h4>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list_cont2">
+                                <div class="list_up2">
+                                    <h3>Next js</h3>
+                                </div>
+                                <div class="list_down2">
+                                    <div class="skill_bar2"></div>
+                                    <h4 class="skill_per2">97%</h4>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="list_cont2">
+                                <div class="list_up2">
+                                    <h3>Express js</h3>
+                                </div>
+                                <div class="list_down2">
+                                    <div class="skill_bar2"></div>
+                                    <h4 class="skill_per2">97%</h4>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="qualitfication">
+        <h1>Qualification</h1>
+        <div class="quali_container">
+            <div class="card left">
+                <h4>2013</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate illo id excepturi cumque porro.
+                    Dolores eligendi impedit beatae voluptatum sapiente. Ut, minus vel tempora facere quo ducimus illo
+                    nemo nobis.</p>
+            </div>
+            <div class="card right">
+                <h4>2015</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate illo id excepturi cumque porro.
+                    Dolores eligendi impedit beatae voluptatum sapiente. Ut, minus vel tempora facere quo ducimus illo
+                    nemo nobis.</p>
+
+            </div>
+            <div class="card left">
+                <h4>2016</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate illo id excepturi cumque porro.
+                    Dolores eligendi impedit beatae voluptatum sapiente. Ut, minus vel tempora facere quo ducimus illo
+                    nemo nobis.</p>
+            </div>
+            <div class="card right">
+                <h4>2018</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate illo id excepturi cumque porro.
+                    Dolores eligendi impedit beatae voluptatum sapiente. Ut, minus vel tempora facere quo ducimus illo
+                    nemo nobis.</p>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="portfolio">
+        <h1>Portfolio</h1>
+
+        <div class="cardcontainer">
+            <div class="cards">
+                <div class="card active">
+                    <div class="card_holder">
+                        <div class="card_left">
+                            <img src="preset2.jpg" alt="preset2">
+                        </div>
+                        <div class="card_right">
+                            <h2>ip tracker</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora nam distinctio
+                                temporibus,
+                                dolorum modi consequatur molestias et odit maxime, commodi dicta rerum labore vel ullam
+                                ratione,
+                                veritatis quasi. Ipsum, dolorum!</p>
+                            <button>Know more</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card_holder">
+                        <div class="card_left">
+                            <img src="preset4.jpg" alt="preset2">
+                        </div>
+                        <div class="card_right">
+                            <h2>Google maps</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora nam distinctio
+                                temporibus,
+                                dolorum modi consequatur molestias et odit maxime, commodi dicta rerum labore vel ullam
+                                ratione,
+                                veritatis quasi. Ipsum, dolorum!</p>
+                            <button>Know more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_holder">
+                        <div class="card_left">
+                            <img src="preset5.jpg" alt="preset2">
+                        </div>
+                        <div class="card_right">
+                            <h2>Uber</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora nam distinctio
+                                temporibus,
+                                dolorum modi consequatur molestias et odit maxime, commodi dicta rerum labore vel ullam
+                                ratione,
+                                veritatis quasi. Ipsum, dolorum!</p>
+                            <button>Know more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_holder">
+                        <div class="card_left">
+                            <img src="perfil.png" alt="preset2">
+                        </div>
+                        <div class="card_right">
+                            <h2>Ai machine</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora nam distinctio
+                                temporibus,
+                                dolorum modi consequatur molestias et odit maxime, commodi dicta rerum labore vel
+                                ullam
+                                ratione,
+                                veritatis quasi. Ipsum, dolorum!</p>
+                            <button>Know more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_holder">
+                        <div class="card_left">
+                            <img src="preset2.jpg" alt="preset2">
+                        </div>
+                        <div class="card_right">
+                            <h2>Meta</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora nam distinctio
+                                temporibus,
+                                dolorum modi consequatur molestias et odit maxime, commodi dicta rerum labore vel ullam
+                                ratione,
+                                veritatis quasi. Ipsum, dolorum!</p>
+                            <button>Know more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="btn_container">
+            <button onclick="next()" class="btn1"> <i class="fas fa-chevron-right"></i> </button>
+            <button onclick="prev()" class="btn2"> <i class="fas fa-chevron-left"></i></button>
+        </div>
+
+    </section>
+    <section class="contact">
+        <h1>Contact</h1>
+        <div class="contact_container">
+            <div class="contact_right">
+                <div class="right">
+                    <i class="fas fa-phone"></i>
+                    <h3>862544444544</h3>
+                </div>
+                <div class="right">
+                    <i class="fas fa-envelope"></i>
+                    <h3>alphanumeric91@gmail.com</h3>
+                </div>
+                <div class="right">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Super market ,Australia</h3>
+                </div>
+
+            </div>
+            <div class="contact_left">
+                <input type="text" name="" id="" placeholder="username">
+                <input type="email" name="" id="" placeholder="email">
+
+                <textarea placeholder="message"></textarea>
+                <input type="submit" value="send">
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="fot1">
+            <h1>suhel</h1>
+        </div>
+        <div class="fot2">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
